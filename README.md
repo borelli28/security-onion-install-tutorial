@@ -16,3 +16,8 @@ Make sure to select "Ubuntu(64-bit)" version and check "Skip Unatttended Install
 
 ![alt text](./images/sec-install-1.png)
 
+- For Hard Disk, we are selection 200GB which is the minimum recommended.
+
+![alt text](./images/sec-install-2.png)
+
+
