@@ -168,7 +168,28 @@ Once it is done we can shut down the instance and move up to setting up our Ubun
 
 ![alt text](./images/ubuntu-5.png)
 
+- At the end of the installation we need to restart the VM and then press Enter.
+
+![alt text](./images/ubuntu-6.png)
+
+- Enter password to login.
+
+![alt text](./images/ubuntu-7.png)
+
+- Now open the app Terminal by clicking on Activities(Upper left corner), and typing the "terminal".
+
+![alt text](./images/ubuntu-8.png)
+
+- Run update in the terminal, when prompted enter your password: `sudo apt update`.
+
+- Now run ip addr in order to get the private IPv4 of this instance so we can set it up on the Security Onion instance: `ip addr`.
+
+![alt text](./images/ubuntu-9.png)
+
+It should look like the IP above. Please note the IP, we are going to needed in the next step.
+
+- Now we can leave the Ubuntu instance running while we start the security onion instance.
 
 
-
+#### Adding analyst machine to Security Onion firewall so we can access the interface.
 
