@@ -49,5 +49,11 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 
 ![alt text](./images/sec-install-8.png)
 
-- 
+- Login, and pre "Yes" to continue with the setup.
+
+- Select Install
+
+![alt text](./images/sec-install-9.png)
+
+
 
