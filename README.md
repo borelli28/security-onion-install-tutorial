@@ -131,9 +131,14 @@ Once it is done we can shut down the instance and move up to setting up our Ubun
 - When is done downloading, verify the SHA256 hash of file. You can find the SHA256 hash in the download page of Ubuntu.
 
 - Now we press "New" to start to creating out Ubuntu VM:
+
 ![alt text](./images/ubuntu-0.png)
 
+- Now for Hardware you can as many CPU cores as you want but at least 2, and 2GB of RAM(Base memory).
 
+![alt text](./images/ubuntu-1.png)
+
+- For Hard Disk, you can leave it at 25GB or more if you want, and press "Finish".
 
 
 
