@@ -4,6 +4,18 @@ This is a tutorial on installing a Security Onion instance on a Virtualbox VM, w
 - Minimum hardware recommendation: 250GB, 16GB RAM, 6 cores of CPU.
 
 
+### Content
+[Downloading Security Onion ISO](https://github.com/borelli28/security-onion-install-tutorial#downloading-security-onion-iso)
+
+[Settings of Security Onion VM in VirtualBox](https://github.com/borelli28/security-onion-install-tutorial#settings-of-security-onion-vm-in-virtualbox)
+
+[Security Onion instance setup](https://github.com/borelli28/security-onion-install-tutorial#security-onion-instance-setup)
+
+[Settings Ubuntu VM](https://github.com/borelli28/security-onion-install-tutorial#settings-ubuntu-vm)
+
+[Adding analyst machine to Security Onion firewall so we can access the interface](https://github.com/borelli28/security-onion-install-tutorial#adding-analyst-machine-to-security-onion-firewall-so-we-can-access-the-interface)
+
+
 #### Downloading Security Onion ISO
 - Visit the repo and click on the download link: https://github.com/Security-Onion-Solutions/securityonion/blob/master/VERIFY_ISO.md
 
@@ -191,7 +203,7 @@ It should look like the IP above. Please note the IP, we are going to needed in 
 - Now we can leave the Ubuntu instance running while we start the security onion instance.
 
 
-#### Adding analyst machine to Security Onion firewall so we can access the interface.
+#### Adding analyst machine to Security Onion firewall so we can access the interface
 
 - Login into Security Onion VM.
 
