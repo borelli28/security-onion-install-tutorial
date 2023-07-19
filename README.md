@@ -77,6 +77,26 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 
 ![alt text](./images/sec-install-12.png)
 
+- Select "Standard" for type of manager.
+
+- Select "Direct".
+
+- Select the network adapter for Monitoring.
+
+![alt text](./images/sec-install-13.png)
+
+- Select "Automatic" for OS path schedule.
+
+- Press "OK" to select the default home network IP's.
+
+- Press "OK" for enabling all services for the instance.	
+
+![alt text](./images/sec-install-14.png)
+
+- 
+
+
+
 
 
 
