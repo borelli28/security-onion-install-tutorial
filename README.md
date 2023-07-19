@@ -93,10 +93,23 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 
 ![alt text](./images/sec-install-14.png)
 
-- 
+- Press "Yes" to accept default docker IP range.
 
+- Enter an email to access the interface later on and password.
 
+- Select "IP".
 
+- Press "Yes" to configure NTP servers.
 
+- Press "Ok" to select the default.
 
+- And press "No" for running so-allow right now, since we will be doing it later when we setup our Ubuntu VM.
+
+![alt text](./images/sec-install-15.png)
+
+- Take a screenshot of the screen since you are going to need the access URL for the interface later, and press "Yes".
+
+- Now we will be waiting for a while until the security onion finish setting up the instance for us. Once it is done we can shut down the instance and move up to setting up our Ubuntu VM.
+
+![alt text](./images/sec-install-16.png)
 
