@@ -140,6 +140,10 @@ Once it is done we can shut down the instance and move up to setting up our Ubun
 
 - For Hard Disk, you can leave it at 25GB or more if you want, and press "Finish".
 
+- For Network, switch adapter 1 to a NAT Network, and pick the network name that you used for the Security Onion instance to make sure they can communicate.
+
+![alt text](./images/ubuntu-2.png)
+
 
 
 
