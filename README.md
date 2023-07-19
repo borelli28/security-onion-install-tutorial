@@ -65,6 +65,17 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 
 ![alt text](./images/sec-install-10.png)
 
+- In this screen we select the Network Adapter for management, which would be the Internal Network adapter. Verify MAC address to pick the correct one.
+
+![alt text](./images/sec-install-11.png)
+
+- Select "DHCP" and then press "OK".
+
+- Press "Yes" to continue with a DHCP.
+
+- Select "OK" to setup the networking.
+
+![alt text](./images/sec-install-12.png)
 
 
 
