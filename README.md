@@ -55,5 +55,17 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 
 ![alt text](./images/sec-install-9.png)
 
+- Select EVAL
+
+- Type "agree" and press "OK".
+
+- You will may get a screen which let's you know that your hardware for the instance is under the minimum recommended pres "Yes" to continue(12Gb = 12,288MB not 12,000MB).
+
+- Enter a hostname for the instance and press "OK".
+
+![alt text](./images/sec-install-10.png)
+
+
+
 
 
