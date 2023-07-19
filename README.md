@@ -20,7 +20,7 @@ Make sure to select "Ubuntu(64-bit)" version and check "Skip Unatttended Install
 
 ![alt text](./images/sec-install-2.png)
 
-- Now we are clicking on settings for the seconion VM. We are disabling audio, which we don't need. For Network, we will have two adapters; the first one will be a Internal Network for the interface & the second one will Bridged Adapter with Promiscuous Mode to "Allow VMs" for monitoring.
+- Now we are clicking on settings for the seconion VM. We are disabling audio, which we don't need. For Network, we will have two adapters; the first one will be a Internal Network for the interface & the second one will be a Bridged Adapter with Promiscuous Mode to "Allow VMs" for monitoring.
 
 ![alt text](./images/sec-install-3.png)
 This step is optional.
