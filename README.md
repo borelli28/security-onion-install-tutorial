@@ -193,3 +193,20 @@ It should look like the IP above. Please note the IP, we are going to needed in 
 
 #### Adding analyst machine to Security Onion firewall so we can access the interface.
 
+- Login into Security Onion VM.
+
+- Note the Security Onion web interface URL, it should something like this: `https://10.0.5.5`.
+
+- Now we add the IP of our analyst instance to SO in one single command like this: `sudo so-allow -a -i 10.0.2.4`.
+	- `sudo` super-user do.
+	- `so-allow`: Wazuh safe list.
+	- `-a`: analyst.
+	- `-i`: IP.
+
+![alt text](./images/ubuntu-10.png)
+
+- Enter password and wait until is done. Then we can go to our Ubuntu analyst instance to check if we get access to the interface.
+
+
+
+
