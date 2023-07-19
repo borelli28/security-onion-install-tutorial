@@ -115,9 +115,13 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 
 - Take a screenshot of the screen since you are going to need the access URL for the interface later, and press "Yes".
 
-- Now we will be waiting for a while until the security onion finish setting up the instance for us. Once it is done we can shut down the instance and move up to setting up our Ubuntu VM.
+- Now we will be waiting for a while until the security onion finish setting up the instance for us.
 
 ![alt text](./images/sec-install-16.png)
+
+Once it is done we can shut down the instance and move up to setting up our Ubuntu VM.
+
+![alt text](./images/sec-install-17.png)
 
 
 #### Settings Ubuntu VM
