@@ -195,7 +195,7 @@ It should look like the IP above. Please note the IP, we are going to needed in 
 
 - Login into Security Onion VM.
 
-- Note the Security Onion web interface URL, it should something like this: `https://10.0.5.5`.
+- Note the Security Onion web interface URL, it should something like this: `https://10.0.2.5`.
 
 - Now we add the IP of our analyst instance to SO in one single command like this: `sudo so-allow -a -i 10.0.2.4`.
 	- `sudo` super-user do.
@@ -207,6 +207,17 @@ It should look like the IP above. Please note the IP, we are going to needed in 
 
 - Enter password and wait until is done. Then we can go to our Ubuntu analyst instance to check if we get access to the interface.
 
+- In the Ubuntu analyst instance we open terminal and we first ping google.com to check for Internet connection.
+
+- Then we ping the Security Onion instance to check for connection.
+
+- If we are successful, then that means we should be able to get access to the interface.
+
+![alt text](./images/ubuntu-11.png)
+
+- Login with the email and password that you use when were setting up Security Onion.
+
+![alt text](./images/ubuntu-12.png)
 
 
 
