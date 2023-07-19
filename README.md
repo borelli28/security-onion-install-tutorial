@@ -13,7 +13,7 @@ This is a tutorial on installing a Security Onion instance on a Virtualbox VM, w
 
 - Now we launch VirtualBox and start creating the VM instance for Security Onion:
 ![alt text](./images/sec-install-0.png)
-Make sure to select "Ubuntu(64-bit)" version and check "Skip Unatttended Installation".
+Make sure to select "Ubuntu(64-bit)" version and check [x]"Skip Unatttended Installation".
 
 - For Hardware, we are selecting 12288MB(12GB) and 4 CPU's, which are the minimum requirements that Security Onion recommends. https://docs.securityonion.net/en/2.3/hardware.html#hardware
 
