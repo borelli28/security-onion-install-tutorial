@@ -144,6 +144,29 @@ Once it is done we can shut down the instance and move up to setting up our Ubun
 
 ![alt text](./images/ubuntu-2.png)
 
+- Now we select the ubuntu instance and press "Start".
+
+- Select "Try or Install Ubuntu".
+
+![alt text](./images/ubuntu-3.png)
+
+- Select language and "Install Ubuntu".
+
+- Select keyboard layout.
+
+- Leave the default and press "Continue".
+
+![alt text](./images/ubuntu-4.png)
+
+- Select "Erase disk and Install Ubuntu" and press "Install Now".
+
+- Press "Continue" and select you location.
+
+- Now pick you username, name for the PC, and password. Press "Continue".
+
+![alt text](./images/ubuntu-5.png)
+
+
 
 
 
