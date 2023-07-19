@@ -30,3 +30,12 @@ Please note the MAC address so you can select the right Adapter during setup.
 
 ![alt text](./images/sec-install-5.png)
 Promiscuous mode allows the adapter to collect all the traffic going through the network.
+
+- Now we press "Start" while selecting the seconion VM to start the instance.
+
+- Let the timer run out to start the automatic boot, and type yes in the next screen
+
+![alt text](./images/sec-install-6.png)
+
+
+
