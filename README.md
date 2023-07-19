@@ -59,7 +59,7 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 
 - Type "agree" and press "OK".
 
-- You will may get a screen which let's you know that your hardware for the instance is under the minimum recommended pres "Yes" to continue(12Gb = 12,288MB not 12,000MB).
+- You may get a screen which let's you know that your hardware for the instance is under the minimum recommended press "Yes" to continue(12Gb = 12,288MB not 12,000MB).
 
 - Enter a hostname for the instance and press "OK".
 
@@ -73,7 +73,7 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 
 - Press "Yes" to continue with a DHCP.
 
-- Select "OK" to setup the networking.
+- Press "OK" to setup the networking.
 
 ![alt text](./images/sec-install-12.png)
 
