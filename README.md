@@ -44,3 +44,39 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 - Now a bunch of packages will be installed so just wait.
 
 ![alt text](./images/sec-install-7.png)
+
+- When it's done we will press enter to reboot and continue the setup.
+
+![alt text](./images/sec-install-8.png)
+
+- Login, and pre "Yes" to continue with the setup.
+
+- Select Install
+
+![alt text](./images/sec-install-9.png)
+
+- Select EVAL
+
+- Type "agree" and press "OK".
+
+- You will may get a screen which let's you know that your hardware for the instance is under the minimum recommended pres "Yes" to continue(12Gb = 12,288MB not 12,000MB).
+
+- Enter a hostname for the instance and press "OK".
+
+![alt text](./images/sec-install-10.png)
+
+- In this screen we select the Network Adapter for management, which would be the Internal Network adapter. Verify MAC address to pick the correct one.
+
+![alt text](./images/sec-install-11.png)
+
+- Select "DHCP" and then press "OK".
+
+- Press "Yes" to continue with a DHCP.
+
+- Select "OK" to setup the networking.
+
+![alt text](./images/sec-install-12.png)
+
+
+
+
