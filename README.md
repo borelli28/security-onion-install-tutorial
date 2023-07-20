@@ -1,5 +1,5 @@
 # security-onion-install-tutorial
-This is a tutorial on installing a Security Onion instance on a Virtualbox VM, with an Ubuntu VM to access the analyst interface.
+This is a tutorial on installing a Security Onion instance on VirtualBox, with an Ubuntu VM to access the analyst interface.
 
 - Minimum hardware recommendation: 250GB, 16GB RAM, 6 cores of CPU.
 
@@ -227,7 +227,7 @@ It should look like the IP above. Please note the IP, we are going to needed in 
 
 ![alt text](./images/ubuntu-11.png)
 
-- Login with the email and password that you use when were setting up Security Onion.
+- Login with the email and password that you used when were setting up Security Onion.
 
 ![alt text](./images/ubuntu-12.png)
 
