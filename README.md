@@ -144,7 +144,7 @@ Once it is done we can shut down the instance and move up to setting up our Ubun
 
 - When is done downloading, verify the SHA256 hash of file. You can find the SHA256 hash in the download page of Ubuntu.
 
-- Now we press "New" to start to creating out Ubuntu VM:
+- Now we press "New" to start creating out Ubuntu VM:
 
 ![alt text](./images/ubuntu-0.png)
 
