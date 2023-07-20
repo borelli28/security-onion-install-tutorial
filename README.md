@@ -33,17 +33,16 @@ Make sure to select "Ubuntu(64-bit)" version and check [x]"Skip Unatttended Inst
 
 ![alt text](./images/sec-install-1.png)
 
-- For Hard Disk, we are selection 200GB which is the minimum recommended.
+- For Hard Disk, we are selecting 200GB which is the minimum recommended.
 
 ![alt text](./images/sec-install-2.png)
 
 - Now we are clicking on settings for the seconion VM. We are disabling audio, which we don't need. For Network, we will have two adapters; the first one will be a NAT Network for the interface & the second one will be a Bridged Adapter with Promiscuous Mode to "Allow VMs" for monitoring.
 
 ![alt text](./images/sec-install-3.png)
-This step is optional.
 
 ![alt text](./images/sec-install-4.png)
-Please note the MAC address so you can select the right Adapter during setup.
+Please note the MAC address, so you can select the right Adapter during setup.
 
 ![alt text](./images/sec-install-5.png)
 Promiscuous mode allows the adapter to collect all the traffic going through the network.
@@ -69,7 +68,7 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 
 ![alt text](./images/sec-install-8.png)
 
-- Login, and pre "Yes" to continue with the setup.
+- Login, and press "Yes" to continue with the setup.
 
 - Select Install
 
@@ -85,7 +84,7 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 
 ![alt text](./images/sec-install-10.png)
 
-- In this screen we select the Network Adapter for management, which would be the Internal Network adapter. Verify MAC address to pick the correct one.
+- In this screen we select the Network Adapter for management, which would be the Internal Network adapter. Verify the MAC address to pick the correct one.
 
 ![alt text](./images/sec-install-11.png)
 
@@ -223,11 +222,11 @@ It should look like the IP above. Please note the IP, we are going to needed in 
 
 - Then we ping the Security Onion instance to check for connection.
 
-- If we are successful, then that means we should be able to get access to the interface.
+- If the packets were received, that means we should be able to get access to the interface.
 
 ![alt text](./images/ubuntu-11.png)
 
-- Login with the email and password that you used when were setting up Security Onion.
+- Login with the email and password that you used when we were setting up Security Onion.
 
 ![alt text](./images/ubuntu-12.png)
 
