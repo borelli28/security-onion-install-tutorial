@@ -187,13 +187,13 @@ Once it is done we can shut down the instance and move up to setting up our Ubun
 
 ![alt text](./images/ubuntu-7.png)
 
-- Now open the app Terminal by clicking on Activities(Upper left corner), and typing the "terminal".
+- Now open the app Terminal by clicking on Activities(Upper left corner), and type "terminal".
 
 ![alt text](./images/ubuntu-8.png)
 
 - Run update in the terminal, when prompted enter your password: `sudo apt update`.
 
-- Now run ip addr in order to get the private IPv4 of this instance so we can set it up on the Security Onion instance: `ip addr`.
+- Now run `ip addr` in order to get the private IPv4 of this instance so we can set it up on the Security Onion instance
 
 ![alt text](./images/ubuntu-9.png)
 
@@ -204,9 +204,9 @@ It should look like the IP above. Please note the IP, we are going to needed in 
 
 #### Adding analyst machine to Security Onion firewall so we can access the interface
 
-- Login into Security Onion VM.
+- Login into the Security Onion VM.
 
-- Note the Security Onion web interface URL, it should something like this: `https://10.0.2.5`.
+- Note the Security Onion web interface URL, it should look something like this: `https://10.0.2.5`.
 
 - Now we add the IP of our analyst instance to SO in one single command like this: `sudo so-allow -a -i 10.0.2.4`.
 	- `sudo` super-user do.
