@@ -1,5 +1,5 @@
 # security-onion-install-tutorial
-This is a tutorial for installing Security Onion 2.4 Standalone instance with Virtualbox, with a Linux Mint VM to access the SOC interface.
+This is a tutorial for installing Security Onion 2.4 Standalone instance with Virtualbox, and with a Linux Mint VM to access the SOC interface.
 
 - Security Onion minimum hardware recommendation: 200GB, 16GB RAM, 4 cores of CPU.
 
