@@ -103,41 +103,45 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 - Now we start the Security Onion instance.
 
-- Let the timer run out to start the automatic boot, and type yes in the next screen
+- Type yes on the first screen
 
-![alt text](./images/sec-install-6.png)
+![alt text](./images/so3.png)
 
 - Enter an username: `admin`
 
-- Enter password and re-type.
+- Enter a password.
 
 - Now a bunch of packages will be installed so just wait.
 
-![alt text](./images/sec-install-7.png)
+![alt text](./images/so4.png)
 
 - When it's done we will press enter to reboot and continue the setup.
 
-![alt text](./images/sec-install-8.png)
+![alt text](./images/so5.png)
 
 - Login, and press "Yes" to continue with the setup.
 
-- Select Install
+- Select Install.
 
-![alt text](./images/sec-install-9.png)
+![alt text](./images/so6.png)
 
-- Select EVAL
+- Select "STANDALONE".
 
 - Type "agree" and press "OK".
 
-- You may get a screen which let's you know that your hardware for the instance is under the minimum recommended press "Yes" to continue(12Gb = 12,288MB not 12,000MB).
+- Select "Standard".
+
+![alt text](./images/so7.png)
 
 - Enter a hostname for the instance and press "OK".
 
-![alt text](./images/sec-install-10.png)
+- You can leave the description blank.
 
-- In this screen we select the Network Adapter for management, which would be the Internal Network adapter. Verify the MAC address to pick the correct one.
+![alt text](./images/so8.png)
 
-![alt text](./images/sec-install-11.png)
+- In this screen we select the Network Adapter for management, this adapter is the one that is NOT in promiscous mode. Verify the MAC address to pick the correct one.
+
+![alt text](./images/so9.png)
 
 - Select "DHCP" and then press "OK".
 
@@ -145,47 +149,41 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 - Press "OK" to setup the networking.
 
-![alt text](./images/sec-install-12.png)
-
-- Select "Standard" for type of manager.
-
 - Select "Direct".
+
+![alt text](./images/so10.png)
+
+- Select "Yes".
 
 - Select the network adapter for Monitoring.
 
-![alt text](./images/sec-install-13.png)
+- Enter an email, this email will be used to login into the SOC portal on the Linux Mint machine. It can be a fake email.
 
-- Select "Automatic" for OS path schedule.
+![alt text](./images/so11.png)
 
-- Press "OK" to select the default home network IP's.
+- Enter password, again, this password will be used to login into the SOC portal.
 
-- Press "OK" for enabling all services for the instance.	
+- Select IP.
 
-![alt text](./images/sec-install-14.png)
+![alt text](./images/so12.png)
 
-- Press "Yes" to accept default docker IP range.
+- Select "Yes" to add our Linux Mint IP to the analyst's list of Security Onion. This would allow us to access the SOC portal.
 
-- Enter an email to access the interface later on and password.
+![alt text](./images/so13.png)
 
-- Select "IP".
+-  Enter the IP of the Linux Mint machine with the subnet mask of 24.
 
-- Press "Yes" to configure NTP servers.
-
-- Press "Ok" to select the default.
-
-- And press "No" for running so-allow right now, since we will be doing it later when we setup our Ubuntu VM.
-
-![alt text](./images/sec-install-15.png)
+![alt text](./images/so14.png)
 
 - Take a screenshot of the screen since you are going to need the access URL for the interface later, and press "Yes".
 
-- Now we will be waiting for a while until the security onion finish setting up the instance for us.
+![alt text](./images/so15.png)
 
-![alt text](./images/sec-install-16.png)
+- Now we will be waiting for a while until Security Onion finish the setup.
 
-Once it is done we can shut down the instance and move up to setting up our Ubuntu VM.
+Once its done, we can go to our Linux Mint machine to access the SOC portal.
 
-![alt text](./images/sec-install-17.png)
+![alt text](./images/so16.png)
 
 
 #### Adding analyst machine to Security Onion firewall so we can access the interface
