@@ -5,15 +5,15 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 
 ## Content
-[Downloading Security Onion ISO](https://github.com/borelli28/security-onion-install-tutorial#downloading-security-onion-iso)
+[Downloading Security Onion ISO](https://github.com/borelli28/security-onion-install-tutorial?tab=readme-ov-file#downloading-security-onion-iso)
 
-[Settings Linux Mint VM](https://github.com/borelli28/security-onion-install-tutorial#settings-linux-mint-vm)
+[Settings Linux Mint VM](https://github.com/borelli28/security-onion-install-tutorial?tab=readme-ov-file#settings-linux-mint-vm)
 
-[Settings of Security Onion VM in VirtualBox](https://github.com/borelli28/security-onion-install-tutorial#settings-of-security-onion-vm-in-virtualbox)
+[Settings of Security Onion VM in VirtualBox](https://github.com/borelli28/security-onion-install-tutorial?tab=readme-ov-file#settings-of-security-onion-vm-in-virtualbox)
 
-[Security Onion instance setup](https://github.com/borelli28/security-onion-install-tutorial#security-onion-instance-setup)
+[Security Onion instance setup](https://github.com/borelli28/security-onion-install-tutorial?tab=readme-ov-file#security-onion-instance-setup)
 
-[Access Security Onion SOC Portal](https://github.com/borelli28/security-onion-install-tutorial#access-security-onion-soc-portal)
+[Access Security Onion SOC Portal](https://github.com/borelli28/security-onion-install-tutorial?tab=readme-ov-file#access-security-onion-soc-portal)
 
 
 #### Downloading Security Onion ISO
@@ -26,8 +26,6 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 - Go to the link and download the Linux Mint Desktop ISO: https://linuxmint.com/download.php
 
 - Now we press "New" to start creating our Ubuntu VM:
-
-![alt text](./images/ubuntu-0.png)
 
 - For the Memory I will be using 6000MB but it does not matter that much.
 
