@@ -84,32 +84,24 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 #### Settings of Security Onion VM in VirtualBox
 
-- Now we launch VirtualBox and start creating the VM instance for Security Onion:
-![alt text](./images/sec-install-0.png)
-Make sure to select "Ubuntu(64-bit)" version and check [x]"Skip Unatttended Installation".
+- Now we can start creating the VM for Security Onion:
 
-- For Hardware, we are selecting 12288MB(12GB) and 4 CPU's, which are the minimum requirements that Security Onion recommends. https://docs.securityonion.net/en/2.3/hardware.html#hardware
+- For Hardware, we are selecting 17000MB of Memory and 4 Processors.
 
-![alt text](./images/sec-install-1.png)
+![alt text](./images/so0.png)
 
-- For Hard Disk, we are selecting 200GB which is the minimum recommended.
+- For Storage, we are selecting 200GB which is the minimum recommended.
 
-![alt text](./images/sec-install-2.png)
+- For Network, we will have two adapters; the first one will be a NAT Network for the interface & the second one will be another Nat Network with Promiscuous Mode to "Allow VMs" for monitoring.
 
-- Now we are clicking on settings for the seconion VM. We are disabling audio, which we don't need. For Network, we will have two adapters; the first one will be a NAT Network for the interface & the second one will be a Bridged Adapter with Promiscuous Mode to "Allow VMs" for monitoring.
+![alt text](./images/so1.png)
 
-![alt text](./images/sec-install-3.png)
-
-![alt text](./images/sec-install-4.png)
-Please note the MAC address, so you can select the right Adapter during setup.
-
-![alt text](./images/sec-install-5.png)
-Promiscuous mode allows the adapter to collect all the traffic going through the network.
+![alt text](./images/so2.png)
 
 
 #### Security Onion instance setup
 
-- Now we press "Start" while selecting the seconion VM to start the instance.
+- Now we start the Security Onion instance.
 
 - Let the timer run out to start the automatic boot, and type yes in the next screen
 
