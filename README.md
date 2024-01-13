@@ -21,6 +21,7 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 - Check the hash of the downloaded file.
 
+
 #### Settings Linux Mint VM
 
 - Go to the link and download the Linux Mint Desktop ISO: https://linuxmint.com/download.php
@@ -197,3 +198,4 @@ Once its done, we can go to our Linux Mint machine to access the SOC portal.
 - Login with the email and password.
 
 ![alt text](./images/mint10.png)
+
