@@ -1,10 +1,10 @@
 # security-onion-install-tutorial
-This is a tutorial for installing Security Onion 2.4 instance with Virtualbox, with an Ubuntu VM to access the SOC interface.
+This is a tutorial for installing Security Onion 2.4 Standalone instance with Virtualbox, with an Ubuntu VM to access the SOC interface.
 
 - Minimum hardware recommendation: 200GB, 16GB RAM, 4 cores of CPU.
 
 
-### Content
+## Content
 [Downloading Security Onion ISO](https://github.com/borelli28/security-onion-install-tutorial#downloading-security-onion-iso)
 
 [Settings of Security Onion VM in VirtualBox](https://github.com/borelli28/security-onion-install-tutorial#settings-of-security-onion-vm-in-virtualbox)
