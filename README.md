@@ -7,13 +7,13 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 ## Content
 [Downloading Security Onion ISO](https://github.com/borelli28/security-onion-install-tutorial#downloading-security-onion-iso)
 
-[Settings of Security Onion VM in VirtualBox](https://github.com/borelli28/security-onion-install-tutorial#settings-of-security-onion-vm-in-virtualbox)
+[Settings Linux Mint VM](https://github.com/borelli28/security-onion-install-tutorial#settings-of-security-onion-vm-in-virtualbox)
 
-[Security Onion instance setup](https://github.com/borelli28/security-onion-install-tutorial#security-onion-instance-setup)
+[Settings of Security Onion VM in VirtualBox](https://github.com/borelli28/security-onion-install-tutorial#security-onion-instance-setup)
 
-[Settings Ubuntu VM](https://github.com/borelli28/security-onion-install-tutorial#settings-ubuntu-vm)
+[Security Onion instance setup](https://github.com/borelli28/security-onion-install-tutorial#settings-ubuntu-vm)
 
-[Adding analyst machine to Security Onion firewall so we can access the interface](https://github.com/borelli28/security-onion-install-tutorial#adding-analyst-machine-to-security-onion-firewall-so-we-can-access-the-interface)
+[Access Security Onion SOC Portal](https://github.com/borelli28/security-onion-install-tutorial#adding-analyst-machine-to-security-onion-firewall-so-we-can-access-the-interface)
 
 
 #### Downloading Security Onion ISO
@@ -21,7 +21,7 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 - Check the hash of the downloaded file.
 
-#### Settings Mint VM
+#### Settings Linux Mint VM
 
 - Go to the link and download the Linux Mint Desktop ISO: https://linuxmint.com/download.php
 
@@ -186,33 +186,16 @@ Once its done, we can go to our Linux Mint machine to access the SOC portal.
 ![alt text](./images/so16.png)
 
 
-#### Adding analyst machine to Security Onion firewall so we can access the interface
+#### Access Security Onion SOC Portal
 
 - Login into the Security Onion VM.
 
-- Note the Security Onion web interface URL, it should look something like this: `https://10.0.2.5`.
+- In the firefox browser, type the IP of the Security Onion instance in the search bar.
 
-- Now we add the IP of our analyst instance to SO in one single command like this: `sudo so-allow -a -i 10.0.2.4`.
-	- `sudo` super-user do.
-	- `so-allow`: Wazuh safe list.
-	- `-a`: analyst.
-	- `-i`: IP.
+- Click "Advanced" and "Accept the Risk and Continue". You should now see the SOC portal.
 
-![alt text](./images/ubuntu-10.png)
+![alt text](./images/mint9.png)
 
-- Enter password and wait until is done. Then we can go to our Ubuntu analyst instance to check if we get access to the interface.
+- Login with the email and password.
 
-- In the Ubuntu analyst instance we open terminal and we first ping google.com to check for Internet connection.
-
-- Then we ping the Security Onion instance to check for connection.
-
-- If the packets were received, that means we should be able to get access to the interface.
-
-![alt text](./images/ubuntu-11.png)
-
-- Login with the email and password that you used when we were setting up Security Onion.
-
-![alt text](./images/ubuntu-12.png)
-
-
-
+![alt text](./images/mint10.png)
