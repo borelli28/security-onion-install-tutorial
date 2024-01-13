@@ -21,6 +21,66 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 - Check the hash of the downloaded file.
 
+#### Settings Mint VM
+
+- Go to the link and download the Linux Mint Desktop ISO: https://linuxmint.com/download.php
+
+- Now we press "New" to start creating our Ubuntu VM:
+
+![alt text](./images/ubuntu-0.png)
+
+- For the Memory I will be using 6000MB but it does not matter that much.
+
+![alt text](./images/mint0.png)
+
+- And I will be using 2 Processors.
+
+- In the Network tab I selected 1 adapter NatNetwork, the same one that I will be using for the Security Onion instance, so they can communicate.
+
+![alt text](./images/mint1.png)
+
+- For Storage I selected 30GB.
+
+- Now we select the Linux Mint instance and press "Start".
+
+- When the VM loads, click on "Install Linux Mint".
+
+![alt text](./images/mint2.png)
+
+- Select language and Keyboard.
+
+- You can press "Continue" here.
+
+![alt text](./images/mint3.png)
+
+- Select "Erase disk and Install Linux Mint" and press "Install Now".
+
+- Press "Continue" and select your location.
+
+- Now pick you username, name for the PC, and password. Press "Continue".
+
+![alt text](./images/mint4.png)
+
+- At the end of the installation we need to press "Restart Now" and then press enter.
+
+![alt text](./images/mint5.png)
+
+- Enter password to login.
+
+- Now open the Terminal.
+
+![alt text](./images/mint6.png)
+
+- Run update in the terminal, when prompted enter your password: `sudo apt update`.
+
+![alt text](./images/mint7.png)
+
+- Now type `ip addr` in order to get the IPv4 of this instance, which we will use when setting up Security Onion.
+
+![alt text](./images/mint8.png)
+
+- Now you can leave the Ubuntu instance running while we start the security onion instance.
+
 
 #### Settings of Security Onion VM in VirtualBox
 
@@ -134,71 +194,6 @@ Promiscuous mode allows the adapter to collect all the traffic going through the
 Once it is done we can shut down the instance and move up to setting up our Ubuntu VM.
 
 ![alt text](./images/sec-install-17.png)
-
-
-#### Settings Ubuntu VM
-
-- Go to the link and download the Ubuntu desktop LTS ISO: https://ubuntu.com/download/desktop 
-
-- When is done downloading, verify the SHA256 hash of file. You can find the SHA256 hash in the download page of Ubuntu.
-
-- Now we press "New" to start creating our Ubuntu VM:
-
-![alt text](./images/ubuntu-0.png)
-
-- Now for Hardware you can as many CPU cores as you want but at least 2, and 2GB of RAM(Base memory).
-
-![alt text](./images/ubuntu-1.png)
-
-- For Hard Disk, you can leave it at 25GB or more if you want, and press "Finish".
-
-- For Network, switch adapter 1 to a NAT Network, and pick the network name that you used for the Security Onion instance to make sure they can communicate.
-
-![alt text](./images/ubuntu-2.png)
-
-- Now we select the ubuntu instance and press "Start".
-
-- Select "Try or Install Ubuntu".
-
-![alt text](./images/ubuntu-3.png)
-
-- Select language and "Install Ubuntu".
-
-- Select keyboard layout.
-
-- Leave the default and press "Continue".
-
-![alt text](./images/ubuntu-4.png)
-
-- Select "Erase disk and Install Ubuntu" and press "Install Now".
-
-- Press "Continue" and select you location.
-
-- Now pick you username, name for the PC, and password. Press "Continue".
-
-![alt text](./images/ubuntu-5.png)
-
-- At the end of the installation we need to restart the VM and then press Enter.
-
-![alt text](./images/ubuntu-6.png)
-
-- Enter password to login.
-
-![alt text](./images/ubuntu-7.png)
-
-- Now open the app Terminal by clicking on Activities(Upper left corner), and type "terminal".
-
-![alt text](./images/ubuntu-8.png)
-
-- Run update in the terminal, when prompted enter your password: `sudo apt update`.
-
-- Now run `ip addr` in order to get the private IPv4 of this instance so we can set it up on the Security Onion instance
-
-![alt text](./images/ubuntu-9.png)
-
-It should look like the IP above. Please note the IP, we are going to needed in the next step.
-
-- Now we can leave the Ubuntu instance running while we start the security onion instance.
 
 
 #### Adding analyst machine to Security Onion firewall so we can access the interface
