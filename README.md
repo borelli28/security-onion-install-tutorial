@@ -17,10 +17,9 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 
 #### Downloading Security Onion ISO
-- Visit the repo and click on the download link: https://github.com/Security-Onion-Solutions/securityonion/blob/master/VERIFY_ISO.md
+- Visit the repo releases page and downloaded the latest version of SO 2.4: https://github.com/Security-Onion-Solutions/securityonion/releases
 
-- Check the SHA256sum hash of the downloaded file. It should match with the one in the repo: `sha256sum securityonion-2.3.260-20230620.iso`
-	output: `06ed74278587b09167fbac1e5796b666fc24ad15d06ea3cc36419d07967e06dd  securityonion-2.3.260-20230620.iso`
+- Check the hash of the downloaded file.
 
 
 #### Settings of Security Onion VM in VirtualBox
