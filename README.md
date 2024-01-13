@@ -1,7 +1,7 @@
 # security-onion-install-tutorial
-This is a tutorial for installing Security Onion 2.4 Standalone instance with Virtualbox, with an Ubuntu VM to access the SOC interface.
+This is a tutorial for installing Security Onion 2.4 Standalone instance with Virtualbox, with an Linux Mint VM to access the SOC interface.
 
-- Minimum hardware recommendation: 200GB, 16GB RAM, 4 cores of CPU.
+- Security Onion minimum hardware recommendation: 200GB, 16GB RAM, 4 cores of CPU.
 
 
 ## Content
@@ -17,7 +17,7 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 
 #### Downloading Security Onion ISO
-- Visit the repo releases page and downloaded the latest version of SO 2.4: https://github.com/Security-Onion-Solutions/securityonion/releases
+- Visit the repo releases page and download the latest version of Security Onion 2.4: https://github.com/Security-Onion-Solutions/securityonion/releases
 
 - Check the hash of the downloaded file.
 
@@ -26,9 +26,9 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 - Go to the link and download the Linux Mint Desktop ISO: https://linuxmint.com/download.php
 
-- Now we press "New" to start creating our Ubuntu VM:
+- Once downloaded we can press "New" to create the VM.
 
-- For the Memory I will be using 6000MB but it does not matter that much.
+- For the Memory I will be using 6000MB but it does not matter that much for this VM.
 
 ![alt text](./images/mint0.png)
 
@@ -91,7 +91,7 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 - For Storage, we are selecting 200GB which is the minimum recommended.
 
-- For Network, we will have two adapters; the first one will be a NAT Network for the interface & the second one will be another Nat Network with Promiscuous Mode to "Allow VMs" for monitoring.
+- For Network, we will have two adapters; the first one will be a NatNetwork for the interface & the second one will be another NatNetwork with Promiscuous Mode to "Allow VMs" for monitoring.
 
 ![alt text](./images/so1.png)
 
@@ -102,11 +102,11 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 - Now we start the Security Onion instance.
 
-- Type yes on the first screen
+- Type "Yes" on the first screen.
 
 ![alt text](./images/so3.png)
 
-- Enter an username: `admin`
+- Enter an username: `admin`.
 
 - Enter a password.
 
@@ -174,28 +174,28 @@ This is a tutorial for installing Security Onion 2.4 Standalone instance with Vi
 
 ![alt text](./images/so14.png)
 
-- Take a screenshot of the screen since you are going to need the access URL for the interface later, and press "Yes".
+- Select "Yes".
 
 ![alt text](./images/so15.png)
 
 - Now we will be waiting for a while until Security Onion finish the setup.
 
-Once its done, we can go to our Linux Mint machine to access the SOC portal.
+- Once its done, we can go to our Linux Mint machine to access the SOC portal.
 
 ![alt text](./images/so16.png)
 
 
 #### Access Security Onion SOC Portal
 
-- Login into the Security Onion VM.
+- Login into the Linux Mint VM.
 
 - In the firefox browser, type the IP of the Security Onion instance in the search bar.
 
-- Click "Advanced" and "Accept the Risk and Continue". You should now see the SOC portal.
+- Click "Advanced" and "Accept the Risk and Continue".
 
 ![alt text](./images/mint9.png)
 
-- Login with the email and password.
+- Login with the email and password. Now you should see the SOC portal.
 
 ![alt text](./images/mint10.png)
 
